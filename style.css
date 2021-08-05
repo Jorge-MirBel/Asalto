@@ -6,6 +6,9 @@
   width: 100%;
   height: auto;
   margin-top: 16px;
+  background: url(Base.jpg);
+  background-size: 330px 200px;
+  background-repeat: no-repeat;
 }
 
 .btn {
