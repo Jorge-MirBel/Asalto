@@ -11,6 +11,16 @@
   background-repeat: no-repeat;
 }
 
+#overlay {
+          width:300px;
+          height:300px;
+          position: absolute;
+          top:0;
+          left:0;
+          pointer-events:none;
+	  background-image: url("Base.jpg");
+	  opacity: 0.8;
+  
 .btn {
   display: inline-block;
   background-color: #00b531;
