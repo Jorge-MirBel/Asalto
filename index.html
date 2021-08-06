@@ -1,37 +1,29 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Camera in browsers - pixo</title>
+ <html>
 
-    <!-- imports the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+  <style>
+   .button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+  </style>
+  
+<body>
+<p style="color:red;font-size:50px;">Asalto al pasado</p>
+<img src="1920.jpg">
+<p>Esta foto es...</p>
+<p>Instrucciones de uso.</p>
+<p>Version 6/8/21 16:00</p>
+<p><a class="button"; href="https://jorge-mirbel.github.io/Capture">Iniciar</a></p>
+</body>
+ 
 
-    <!-- imports the webpage's javascript file -->
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <h1>Demo - Native camera in browsers</h1>
-
-    <!-- The `label` is attached to the hidden file input -->
-    <label for="cameraFileInput">
-      <span class="btn">Open camera</span>
-<p> </p>
-	<img src="Base.jpg" alt="Alcañiz demo" width="500" height="500">
-
-      <!-- The hidden file `input` for opening the native camera -->
-      <input
-        id="cameraFileInput"
-        type="file"
-        accept="image/*"
-        capture="environment"
-      />
-    </label>
-	<div id="overlay"></div>
-    <!-- displays the picture uploaded from the native camera -->
-    <img id="pictureFromCamera" />
-  </body>
 </html>
+
